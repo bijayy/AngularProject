@@ -1,11 +1,14 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppComponent } from './app.component';
+import { AppComponent, NavigationBarComponent, SigninComponent, SignupComponent } from './project.dependencies';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavigationBarComponent,
+    SigninComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule
